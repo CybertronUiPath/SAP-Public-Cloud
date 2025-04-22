@@ -1,0 +1,155 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="SAP_Public_Signout" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="SAP_Public_Signout_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Services.RuntimeAnalyze</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>System.ComponentModel</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="SAP_Public_Signout" sap:VirtualizedContainerService.HintSize="1497,1138.04" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Always" DisplayName="Use Browser Chrome: Sales Order" sap:VirtualizedContainerService.HintSize="450,970" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="49c295d4-8ef2-4ee6-8591-73cf4e75f5a5" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,730" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''ES''" sap:VirtualizedContainerService.HintSize="382,225" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="49c295d4-8ef2-4ee6-8591-73cf4e75f5a5" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="my419202.s4hana.cloud.sap/ui" DesignTimeRectangle="2488, 217, 32, 32" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;webctrl id='userActionsMenuHeaderButton' /&gt;" FuzzySelectorArgument="&lt;webctrl id='userActionsMenuHeaderButton' tag='SPAN' type='' class='sapFAvatar sapFAvatarColorAccent6 sapFAvatarXS sapFAvatarInitials sapFAvatarCircle sapMPointer sapFAvatarFocusable' aaname='' check:innerText='ES' /&gt;" Guid="3ca1202a-6640-428c-af39-c39d30118f13" InformativeScreenshot="b3c31893ff57ff98feca676e46a924c5.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Sales Order' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive" />
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''unchecked''" sap:VirtualizedContainerService.HintSize="382,225" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="49c295d4-8ef2-4ee6-8591-73cf4e75f5a5" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="my419202.s4hana.cloud.sap/ui" DesignTimeRectangle="2369, 535, 180, 32" DesignTimeScaleFactor="1" ElementType="ListItem" FullSelectorArgument="&lt;webctrl id='sapUshellUserActionsMenuPopover' /&gt;&lt;webctrl ui5-class='sap.m.List' /&gt;&lt;webctrl ui5-type='List Item' ui5p-title='Sign Out' /&gt;" FuzzySelectorArgument="&lt;webctrl id='sapUshellUserActionsMenuPopover' /&gt;&lt;webctrl ui5-class='sap.m.List' /&gt;&lt;webctrl ui5-type='List Item' ui5p-title='Sign Out' tag='LI' type='' class='sapMLIB sapMLIB-CTX sapMLIBShowSeparator sapMLIBTypeActive sapMLIBActionable sapMLIBHoverable sapMLIBFocusable sapMSLI sapUshellUserActionsMenuActionItem' aaname='' check:innerText='Sign Out' /&gt;" Guid="1e1874c8-2999-4c8c-b4f8-052c0554e658" InformativeScreenshot="4b520234e3b2ff6d30921a605b15ba6b.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Sales Order' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive" />
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''OK''" sap:VirtualizedContainerService.HintSize="382,218" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="49c295d4-8ef2-4ee6-8591-73cf4e75f5a5" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="my419202.s4hana.cloud.sap/ui" DesignTimeRectangle="1296, 820, 64, 32" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;webctrl ui5-role='button' ui5p-text='OK' /&gt;" FuzzySelectorArgument="&lt;webctrl ui5-role='button' ui5p-text='OK' tag='BUTTON' type='' class='sapMBtnBase sapMBtn sapMBarChild' aaname='OK' check:innerText='OK' /&gt;" Guid="636ed154-8c05-4ded-b9b1-a20d752a2878" InformativeScreenshot="63262c3695b331024d056933e2b9277b.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Sales Order' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive" />
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-8, -8, 2576, 1408" BrowserType="Chrome" IconBase64="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" sap2010:WorkflowViewState.IdRef="TargetApp_1" InformativeScreenshot="ce35fd053a9df35bba48b143168d0f94.jpg" Selector="&lt;html app='chrome.exe' title='Sales Order' /&gt;" Title="Sales Order" Url="https://my419202.s4hana.cloud.sap/ui*" Version="V1" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

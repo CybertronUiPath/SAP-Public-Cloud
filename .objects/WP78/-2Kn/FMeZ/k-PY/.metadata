@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Incompletion Status",
+  "Type": "Element",
+  "Id": "k-PY_0VyyEO3DR0-6jXN0g",
+  "Reference": "jNKRErqfgk-OAzFngleY0w/k-PY_0VyyEO3DR0-6jXN0g",
+  "ParentRef": "jNKRErqfgk-OAzFngleY0w/FMeZUiiRyU2mLHtB89Pe-w",
+  "Created": "2025-04-22T16:23:23.7619094Z",
+  "Updated": "2025-04-22T16:23:23.7619094Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.12.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

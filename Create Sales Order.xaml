@@ -1,0 +1,510 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="TestCase" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="376,259" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Services.RuntimeAnalyze</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>UiPath.Testing</x:String>
+      <x:String>UiPath.Testing.Activities</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>UiPath.Testing</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence sap:VirtualizedContainerService.HintSize="1666,1138.04" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:Comment sap:VirtualizedContainerService.HintSize="416,88" sap2010:WorkflowViewState.IdRef="Comment_1" Text="// Blank Test Case" />
+    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="SAP Public Login - Invoke Workflow File (SAP Public Login.xaml)" sap:VirtualizedContainerService.HintSize="416,177" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="SAP Public Login.xaml">
+      <ui:InvokeWorkflowFile.Arguments>
+        <scg:Dictionary x:TypeArguments="x:String, Argument" />
+      </ui:InvokeWorkflowFile.Arguments>
+    </ui:InvokeWorkflowFile>
+    <Delay Duration="00:00:03" sap:VirtualizedContainerService.HintSize="416,122" sap2010:WorkflowViewState.IdRef="Delay_1" />
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome Home" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="4ca6c231-d215-40df-b75b-3ab8cf6dfb71" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence sap:VirtualizedContainerService.HintSize="450,6813" sap2010:WorkflowViewState.IdRef="Sequence_4">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="x:String" Name="SalesOrderNumber" />
+              <Variable x:TypeArguments="x:String" Name="OrderStatus" />
+            </Sequence.Variables>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into ''SAP.ESH.SEARCH.UI.CONTR…''" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="416,286" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="4ca6c231-d215-40df-b75b-3ab8cf6dfb71" Text="Create Sales Order" Version="V4">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="my419202.s4hana.cloud.sap/ui" DesignTimeRectangle="1084, 220, 440, 26" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='searchFieldInShell-input' /&gt;" FuzzySelectorArgument="&lt;webctrl id='searchFieldInShell-input' tag='DIV' type='' class='sapMInputBase sapMInputBaseHeightMargin sapMInput searchInput' aaname='' /&gt;" Guid="092b6ffe-2203-453c-b893-39e50375d595" InformativeScreenshot="a39fe92d3ff82dbebd37e1ac5da72b9c.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Home' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive" />
+              </uix:NTypeInto.Target>
+              <uix:NTypeInto.VerifyOptions>
+                <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionTypeIntoOptions.Retry>
+                  <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                </uix:VerifyExecutionTypeIntoOptions>
+              </uix:NTypeInto.VerifyOptions>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''Create Sales Orders''" sap:VirtualizedContainerService.HintSize="416,225" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="4ca6c231-d215-40df-b75b-3ab8cf6dfb71" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="my419202.s4hana.cloud.sap/ui" DesignTimeRectangle="1141, 300, 131, 32" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;webctrl id='searchFieldInShell-input-popup' /&gt;&lt;webctrl id='searchFieldInShell-input-popup-table' /&gt;&lt;webctrl ui5-class='sap.m.Text' ui5-tableCol='0' ui5-tableRow='1' /&gt;" FuzzySelectorArgument="&lt;webctrl id='searchFieldInShell-input-popup' /&gt;&lt;webctrl id='searchFieldInShell-input-popup-table' /&gt;&lt;webctrl ui5-class='sap.m.Text' ui5-tableCol='0' ui5-tableRow='1' tag='SPAN' type='' class='sapMText sapUiSelectable sapMTextNoWrap sapMTextMaxWidth suggestText suggestNavItem suggestListItemCell' aaname='s' check:innerText='Create Sales Orders' /&gt;" Guid="a46ddaa4-cd94-4a2d-8c16-4ed0515e8f5d" InformativeScreenshot="8ddc93adabec6158d13562663aa68d0a.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Home' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive" />
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DelayBefore="2" DisplayName="Type Into ''SAP.UI.MDC.FIELD.FIELDI…''" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="416,286" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="4ca6c231-d215-40df-b75b-3ab8cf6dfb71" Text="OR" Version="V4">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="my419202.s4hana.cloud.sap/ui" DesignTimeRectangle="1144, 686, 288, 26" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='APD_::SalesOrderType-inner' /&gt;" FuzzySelectorArgument="&lt;webctrl id='APD_::SalesOrderType-inner' tag='DIV' type='' class='sapMInputBase sapMInputBaseHeightMargin sapMInput sapUiMdcFieldInput sapMInputBaseHasEndIcons sapMFocus sapMInputFocused' aaname='' /&gt;" Guid="09a83802-ecda-4359-8a0e-02b04891cf64" InformativeScreenshot="6827a717b413210066aaa4c50c6ec1e1.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Manage Sales Orders - Version 2' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Visible" />
+              </uix:NTypeInto.Target>
+              <uix:NTypeInto.VerifyOptions>
+                <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionTypeIntoOptions.Retry>
+                  <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                </uix:VerifyExecutionTypeIntoOptions>
+              </uix:NTypeInto.VerifyOptions>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''Standard Order (OR)''" sap:VirtualizedContainerService.HintSize="416,225" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="4ca6c231-d215-40df-b75b-3ab8cf6dfb71" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="my419202.s4hana.cloud.sap/ui" DesignTimeRectangle="1165, 721, 260, 16" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;webctrl id='com.sap.gateway.srvd.c_salesordermanage_sd.v0001.CreateWithSalesOrderType::SalesOrderType::Popover::qualifier::::SuggestTable' /&gt;&lt;webctrl ui5-tableCol='0' ui5-tableRow='0' /&gt;" FuzzySelectorArgument="&lt;webctrl id='com.sap.gateway.srvd.c_salesordermanage_sd.v0001.CreateWithSalesOrderType::SalesOrderType::Popover::qualifier::::SuggestTable' /&gt;&lt;webctrl ui5-tableCol='0' ui5-tableRow='0' tag='SPAN' type='' class='sapMText sapUiSelectable sapMTextMaxWidth sapMTextRenderWhitespaceWrap' aaname='Standard der (OR)' check:innerText='Standard Order (OR)' /&gt;" Guid="b95f4969-8540-440c-b77c-8d048b26de4b" InformativeScreenshot="1862b1d7fb92ce07e8d2c04f00444a2e.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Manage Sales Orders - Version 2' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive" />
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into ''SAP.UI.MDC.FIELD.FIELDI…''" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="416,286" sap2010:WorkflowViewState.IdRef="NTypeInto_3" ScopeIdentifier="4ca6c231-d215-40df-b75b-3ab8cf6dfb71" Text="1710" Version="V4">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="my419202.s4hana.cloud.sap/ui" DesignTimeRectangle="1144, 754, 288, 26" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='APD_::SalesOrganization-inner' /&gt;" FuzzySelectorArgument="&lt;webctrl id='APD_::SalesOrganization-inner' tag='DIV' type='' class='sapMInputBase sapMInputBaseHeightMargin sapMInput sapUiMdcFieldInput sapMInputBaseHasEndIcons' aaname='' /&gt;" Guid="6949cc26-f436-4edd-92e0-f261068b07e6" InformativeScreenshot="ca01c738d073348f8801acfdd65e8282.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Manage Sales Orders - Version 2' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive" />
+              </uix:NTypeInto.Target>
+              <uix:NTypeInto.VerifyOptions>
+                <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionTypeIntoOptions.Retry>
+                  <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                </uix:VerifyExecutionTypeIntoOptions>
+              </uix:NTypeInto.VerifyOptions>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''1710''" sap:VirtualizedContainerService.HintSize="416,225" sap2010:WorkflowViewState.IdRef="NClick_4" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="4ca6c231-d215-40df-b75b-3ab8cf6dfb71" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="my419202.s4hana.cloud.sap/ui" DesignTimeRectangle="1165, 871, 96, 16" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;webctrl id='com.sap.gateway.srvd.c_salesordermanage_sd.v0001.CreateWithSalesOrderType::SalesOrganization::Popover::qualifier::::SuggestTable' /&gt;&lt;webctrl ui5-colLabel='Sales Organization' ui5-tableRow='1' /&gt;" FuzzySelectorArgument="&lt;webctrl id='com.sap.gateway.srvd.c_salesordermanage_sd.v0001.CreateWithSalesOrderType::SalesOrganization::Popover::qualifier::::SuggestTable' /&gt;&lt;webctrl ui5-colLabel='Sales Organization' ui5-tableRow='1' tag='DIV' type='' class='' aaname='' check:innerText='1710' /&gt;" Guid="7c25918d-6e76-4004-a45b-79effb766254" InformativeScreenshot="9bc9a439c3da1161f84876affc1a0def.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Manage Sales Orders - Version 2' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive" />
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into ''SAP.UI.MDC.FIELD.FIELDI…''" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="416,286" sap2010:WorkflowViewState.IdRef="NTypeInto_4" ScopeIdentifier="4ca6c231-d215-40df-b75b-3ab8cf6dfb71" Text="10" Version="V4">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="my419202.s4hana.cloud.sap/ui" DesignTimeRectangle="1144, 822, 288, 26" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='APD_::DistributionChannel-inner' /&gt;" FuzzySelectorArgument="&lt;webctrl id='APD_::DistributionChannel-inner' tag='DIV' type='' class='sapMInputBase sapMInputBaseHeightMargin sapMInput sapUiMdcFieldInput sapMInputBaseHasEndIcons' aaname='' /&gt;" Guid="cdda7afe-02c5-4d05-8f0e-528c06bd55d4" InformativeScreenshot="c68370a58597c2424b2b32a7aabbc6c3.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Manage Sales Orders - Version 2' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive" />
+              </uix:NTypeInto.Target>
+              <uix:NTypeInto.VerifyOptions>
+                <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionTypeIntoOptions.Retry>
+                  <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                </uix:VerifyExecutionTypeIntoOptions>
+              </uix:NTypeInto.VerifyOptions>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''10''" sap:VirtualizedContainerService.HintSize="416,225" sap2010:WorkflowViewState.IdRef="NClick_5" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="4ca6c231-d215-40df-b75b-3ab8cf6dfb71" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="my419202.s4hana.cloud.sap/ui" DesignTimeRectangle="1165, 939, 97, 16" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;webctrl id='com.sap.gateway.srvd.c_salesordermanage_sd.v0001.CreateWithSalesOrderType::DistributionChannel::Popover::qualifier::::SuggestTable' /&gt;&lt;webctrl ui5-colLabel='Distribution Channel' ui5-tableRow='1' /&gt;" FuzzySelectorArgument="&lt;webctrl id='com.sap.gateway.srvd.c_salesordermanage_sd.v0001.CreateWithSalesOrderType::DistributionChannel::Popover::qualifier::::SuggestTable' /&gt;&lt;webctrl ui5-colLabel='Distribution Channel' ui5-tableRow='1' tag='DIV' type='' class='' aaname='' check:innerText='10' /&gt;" Guid="933a3bb1-8261-4311-a728-8b20fe1dd07e" InformativeScreenshot="6f3b511ea17368b9f78aedcc5fa3d73b.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Manage Sales Orders - Version 2' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive" />
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into ''SAP.UI.MDC.FIELD.FIELDI…''" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="416,286" sap2010:WorkflowViewState.IdRef="NTypeInto_5" ScopeIdentifier="4ca6c231-d215-40df-b75b-3ab8cf6dfb71" Text="00" Version="V4">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="my419202.s4hana.cloud.sap/ui" DesignTimeRectangle="1144, 890, 288, 26" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='APD_::OrganizationDivision-inner' /&gt;" FuzzySelectorArgument="&lt;webctrl id='APD_::OrganizationDivision-inner' tag='DIV' type='' class='sapMInputBase sapMInputBaseHeightMargin sapMInput sapUiMdcFieldInput sapMInputBaseHasEndIcons' aaname='' /&gt;" Guid="7c805e75-c7d1-4ab3-8de6-56b5c457eb60" InformativeScreenshot="da85afa18d304150f167c3396ee69fd6.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Manage Sales Orders - Version 2' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive" />
+              </uix:NTypeInto.Target>
+              <uix:NTypeInto.VerifyOptions>
+                <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionTypeIntoOptions.Retry>
+                  <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                </uix:VerifyExecutionTypeIntoOptions>
+              </uix:NTypeInto.VerifyOptions>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''00''" sap:VirtualizedContainerService.HintSize="416,225" sap2010:WorkflowViewState.IdRef="NClick_6" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="4ca6c231-d215-40df-b75b-3ab8cf6dfb71" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="my419202.s4hana.cloud.sap/ui" DesignTimeRectangle="1165, 991, 59, 16" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;webctrl id='com.sap.gateway.srvd.c_salesordermanage_sd.v0001.CreateWithSalesOrderType::OrganizationDivision::Popover::qualifier::::SuggestTable' /&gt;&lt;webctrl ui5-colLabel='Division' ui5-tableRow='1' /&gt;" FuzzySelectorArgument="&lt;webctrl id='com.sap.gateway.srvd.c_salesordermanage_sd.v0001.CreateWithSalesOrderType::OrganizationDivision::Popover::qualifier::::SuggestTable' /&gt;&lt;webctrl ui5-colLabel='Division' ui5-tableRow='1' tag='DIV' type='' class='' aaname='' check:innerText='00' /&gt;" Guid="6b9f0194-95d5-4593-b488-86a5dd5674d3" InformativeScreenshot="4eebb860c509ac11caa8b84864d8f6c2.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Manage Sales Orders - Version 2' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive" />
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''Continue''" sap:VirtualizedContainerService.HintSize="416,225" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="4ca6c231-d215-40df-b75b-3ab8cf6dfb71" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="my419202.s4hana.cloud.sap/ui" DesignTimeRectangle="1288, 940, 72, 32" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;webctrl id='fe::APD_::com.sap.gateway.srvd.c_salesordermanage_sd.v0001.CreateWithSalesOrderType::Action::Ok' /&gt;" FuzzySelectorArgument="&lt;webctrl id='fe::APD_::com.sap.gateway.srvd.c_salesordermanage_sd.v0001.CreateWithSalesOrderType::Action::Ok' tag='BUTTON' type='' class='sapMBtnBase sapMBtn sapMBtnInverted sapMDialogBeginButton sapMBarChild' aaname='Continue' check:innerText='Continue' /&gt;" Guid="d3bb27ec-4a69-42a8-8a11-0e2cdce4b032" InformativeScreenshot="79b6f10eb52d0a8ffc906c81a9e2437b.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Manage Sales Orders - Version 2' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive" />
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into ''SAP.UI.MDC.FIELD.FIELDI…''" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="416,286" sap2010:WorkflowViewState.IdRef="NTypeInto_6" ScopeIdentifier="4ca6c231-d215-40df-b75b-3ab8cf6dfb71" Text="17100100" Version="V4">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="my419202.s4hana.cloud.sap/ui" DesignTimeRectangle="72, 700, 376, 26" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='cus.sd.salesorderv2.manage::SalesOrderManageObjectPage--fe::FormContainer::OrderData::FormElement::DataField::SoldToParty::Field-edit-inner' /&gt;" FuzzySelectorArgument="&lt;webctrl id='cus.sd.salesorderv2.manage::SalesOrderManageObjectPage--fe::FormContainer::OrderData::FormElement::DataField::SoldToParty::Field-edit-inner' tag='DIV' type='' class='sapMInputBase sapMInputBaseHeightMargin sapMInput sapUiMdcFieldInput sapMInputBaseHasEndIcons' aaname='' /&gt;" Guid="ca1b7ce7-90fc-4f06-8d57-1930f44d7ede" InformativeScreenshot="a7fd9c9e52a40a12d0dac999ba27f8dd.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Sales Order' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive" />
+              </uix:NTypeInto.Target>
+              <uix:NTypeInto.VerifyOptions>
+                <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionTypeIntoOptions.Retry>
+                  <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                </uix:VerifyExecutionTypeIntoOptions>
+              </uix:NTypeInto.VerifyOptions>
+            </uix:NTypeInto>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into ''Value State Warning Ent…''" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="416,286" sap2010:WorkflowViewState.IdRef="NTypeInto_9" ScopeIdentifier="4ca6c231-d215-40df-b75b-3ab8cf6dfb71" Text="Test Reference" Version="V4">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="my419202.s4hana.cloud.sap/ui" DesignTimeRectangle="72, 760, 376, 26" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='cus.sd.salesorderv2.manage::SalesOrderManageObjectPage--fe::FormContainer::OrderData::FormElement::DataField::PurchaseOrderByCustomer::Field-edit' /&gt;" FuzzySelectorArgument="&lt;webctrl id='cus.sd.salesorderv2.manage::SalesOrderManageObjectPage--fe::FormContainer::OrderData::FormElement::DataField::PurchaseOrderByCustomer::Field-edit' tag='DIV' type='' class='sapMInputBase sapMInputBaseHeightMargin sapMInput sapMInputBaseState' aaname='' /&gt;" Guid="774b562c-6504-41b8-b1f5-184617d4cfc2" InformativeScreenshot="76b79a669b1de80f90ea8f2990c46dc0.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Sales Order' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive" />
+              </uix:NTypeInto.Target>
+              <uix:NTypeInto.VerifyOptions>
+                <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionTypeIntoOptions.Retry>
+                  <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                </uix:VerifyExecutionTypeIntoOptions>
+              </uix:NTypeInto.VerifyOptions>
+            </uix:NTypeInto>
+            <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="416,247" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_1" ScopeIdentifier="4ca6c231-d215-40df-b75b-3ab8cf6dfb71" Shortcuts="[d(hk)][k(enter)][u(hk)]" Version="V4">
+              <uix:NKeyboardShortcuts.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NKeyboardShortcuts.VerifyOptions>
+            </uix:NKeyboardShortcuts>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''Items''" sap:VirtualizedContainerService.HintSize="416,225" sap2010:WorkflowViewState.IdRef="NClick_7" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="4ca6c231-d215-40df-b75b-3ab8cf6dfb71" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="my419202.s4hana.cloud.sap/ui" DesignTimeRectangle="226, 514, 68, 44" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;webctrl id='cus.sd.salesorderv2.manage::SalesOrderManageObjectPage--fe::ObjectPage-anchBar' /&gt;&lt;webctrl id='cus.sd.salesorderv2.manage::SalesOrderManageObjectPage--fe::ObjectPage-anchBar-cus.sd.salesorderv2.manage::SalesOrderManageObjectPage--fe::FacetSection::SalesOrderItems-anchor' /&gt;" FuzzySelectorArgument="&lt;webctrl id='cus.sd.salesorderv2.manage::SalesOrderManageObjectPage--fe::ObjectPage-anchBar' /&gt;&lt;webctrl id='cus.sd.salesorderv2.manage::SalesOrderManageObjectPage--fe::ObjectPage-anchBar-cus.sd.salesorderv2.manage::SalesOrderManageObjectPage--fe::FacetSection::SalesOrderItems-anchor' tag='DIV' type='' class='sapMITBItem sapMITBItemNoCount sapMITBVertical sapMITBFilter sapMITBFilterDefault' aaname='' check:innerText='Items' /&gt;" Guid="845e7151-2649-4527-afb6-4ea9923b7025" InformativeScreenshot="d98900499e554fd9f8a48d728c3a45fe.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Sales Order' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive" />
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into ''SAP.UI.MDC.FIELD.FIELDI…''" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="416,286" sap2010:WorkflowViewState.IdRef="NTypeInto_7" ScopeIdentifier="4ca6c231-d215-40df-b75b-3ab8cf6dfb71" Text="TG22" Version="V4">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="my419202.s4hana.cloud.sap/ui" DesignTimeRectangle="158, 492, 304, 26" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='cus.sd.salesorderv2.manage::SalesOrderManageObjectPage--fe::table::_Item::LineItem-innerTable' /&gt;&lt;webctrl ui5-class='sap.ui.mdc.field.FieldInput' ui5-type='Input' /&gt;" FuzzySelectorArgument="&lt;webctrl id='cus.sd.salesorderv2.manage::SalesOrderManageObjectPage--fe::table::_Item::LineItem-innerTable' /&gt;&lt;webctrl ui5-class='sap.ui.mdc.field.FieldInput' ui5-type='Input' tag='DIV' type='' class='sapMInputBase sapMInputBaseHeightMargin sapMInput sapUiMdcFieldInput sapMInputBaseHasEndIcons' aaname='' /&gt;" Guid="81a2a918-5830-4134-8506-68ffd98fea54" InformativeScreenshot="e2437dd8811e2573ded45057c6633670.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Sales Order' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive" />
+              </uix:NTypeInto.Target>
+              <uix:NTypeInto.VerifyOptions>
+                <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionTypeIntoOptions.Retry>
+                  <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                </uix:VerifyExecutionTypeIntoOptions>
+              </uix:NTypeInto.VerifyOptions>
+            </uix:NTypeInto>
+            <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="416,247" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_2" ScopeIdentifier="4ca6c231-d215-40df-b75b-3ab8cf6dfb71" Shortcuts="[d(hk)][k(enter)][u(hk)]" Version="V4">
+              <uix:NKeyboardShortcuts.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NKeyboardShortcuts.VerifyOptions>
+            </uix:NKeyboardShortcuts>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into ''Input''" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="416,286" sap2010:WorkflowViewState.IdRef="NTypeInto_8" ScopeIdentifier="4ca6c231-d215-40df-b75b-3ab8cf6dfb71" Text="3" Version="V4">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="my419202.s4hana.cloud.sap/ui" DesignTimeRectangle="479, 491, 80, 26" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='cus.sd.salesorderv2.manage::SalesOrderManageObjectPage--fe::table::_Item::LineItem-innerTable' /&gt;&lt;webctrl ui5-colLabel='Requested Quantity' ui5-tableRow='0' ui5-type='Input' /&gt;" FuzzySelectorArgument="&lt;webctrl id='cus.sd.salesorderv2.manage::SalesOrderManageObjectPage--fe::table::_Item::LineItem-innerTable' /&gt;&lt;webctrl ui5-colLabel='Requested Quantity' ui5-tableRow='0' ui5-type='Input' tag='DIV' type='' class='sapMInputBase sapMInputBaseHeightMargin sapMInput sapUiMdcFieldInput' aaname='' /&gt;" Guid="afb68847-051b-4493-b075-4412911d48dc" InformativeScreenshot="f2f8a74cf20ceb5e61bd3b7cf1239e9e.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Sales Order' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive" />
+              </uix:NTypeInto.Target>
+              <uix:NTypeInto.VerifyOptions>
+                <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionTypeIntoOptions.Retry>
+                  <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                </uix:VerifyExecutionTypeIntoOptions>
+              </uix:NTypeInto.VerifyOptions>
+            </uix:NTypeInto>
+            <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="416,247" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_3" ScopeIdentifier="4ca6c231-d215-40df-b75b-3ab8cf6dfb71" Shortcuts="[d(hk)][k(enter)][u(hk)]" Version="V4">
+              <uix:NKeyboardShortcuts.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NKeyboardShortcuts.VerifyOptions>
+            </uix:NKeyboardShortcuts>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''Partners''" sap:VirtualizedContainerService.HintSize="416,225" sap2010:WorkflowViewState.IdRef="NClick_8" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="4ca6c231-d215-40df-b75b-3ab8cf6dfb71" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="my419202.s4hana.cloud.sap/ui" DesignTimeRectangle="294, 350, 88, 44" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;webctrl id='cus.sd.salesorderv2.manage::SalesOrderManageObjectPage--fe::ObjectPage-anchBar' /&gt;&lt;webctrl id='cus.sd.salesorderv2.manage::SalesOrderManageObjectPage--fe::ObjectPage-anchBar-cus.sd.salesorderv2.manage::SalesOrderManageObjectPage--fe::FacetSection::SalesOrderHeaderPartner-anchor' /&gt;" FuzzySelectorArgument="&lt;webctrl id='cus.sd.salesorderv2.manage::SalesOrderManageObjectPage--fe::ObjectPage-anchBar' /&gt;&lt;webctrl id='cus.sd.salesorderv2.manage::SalesOrderManageObjectPage--fe::ObjectPage-anchBar-cus.sd.salesorderv2.manage::SalesOrderManageObjectPage--fe::FacetSection::SalesOrderHeaderPartner-anchor' tag='DIV' type='' class='sapMITBItem sapMITBItemNoCount sapMITBVertical sapMITBFilter sapMITBFilterDefault' aaname='' check:innerText='Partners' /&gt;" Guid="86fa4a58-7bb6-48d6-a2fa-94c05b065fcc" InformativeScreenshot="7a148445166df5ea97c3ae1f7b41919e.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Sales Order' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive" />
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NCheck Action="Check" DisplayName="Check/Uncheck ''SAP.M.RADIOBUTTON''" sap:VirtualizedContainerService.HintSize="416,189" sap2010:WorkflowViewState.IdRef="NCheck_1" ScopeIdentifier="4ca6c231-d215-40df-b75b-3ab8cf6dfb71" Version="V4">
+              <uix:NCheck.Target>
+                <uix:TargetAnchorable BrowserURL="my419202.s4hana.cloud.sap/ui" DesignTimeRectangle="40, 499, 32, 32" DesignTimeScaleFactor="1" ElementType="RadioButton" FullSelectorArgument="&lt;webctrl id='cus.sd.salesorderv2.manage::SalesOrderManageObjectPage--fe::table::_Partner::LineItem-innerTable' /&gt;&lt;webctrl ui5-role='radio' /&gt;" FuzzySelectorArgument="&lt;webctrl id='cus.sd.salesorderv2.manage::SalesOrderManageObjectPage--fe::table::_Partner::LineItem-innerTable' /&gt;&lt;webctrl ui5-role='radio' tag='DIV' type='' class='sapMRb sapMLIBSelectS' aaname='' /&gt;" Guid="99bd659d-6b6f-422a-a29e-24eb087ed08f" InformativeScreenshot="0275cce322e26396330fa94908ac1790.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Sales Order' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive" />
+              </uix:NCheck.Target>
+            </uix:NCheck>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''Create''" sap:VirtualizedContainerService.HintSize="416,225" sap2010:WorkflowViewState.IdRef="NClick_9" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="4ca6c231-d215-40df-b75b-3ab8cf6dfb71" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="my419202.s4hana.cloud.sap/ui" DesignTimeRectangle="2413, 1356, 57, 32" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;webctrl id='cus.sd.salesorderv2.manage::SalesOrderManageObjectPage--fe::FooterBar::StandardAction::Save' /&gt;" FuzzySelectorArgument="&lt;webctrl id='cus.sd.salesorderv2.manage::SalesOrderManageObjectPage--fe::FooterBar::StandardAction::Save' tag='BUTTON' type='' class='sapMBtnBase sapMBtn sapMBtnInverted sapMBarChild' aaname='Create' check:innerText='Create' /&gt;" Guid="b6bdd2da-c073-4fe2-ba78-2972f612a2a0" InformativeScreenshot="2709147f70ac1b3b66a5ab826f3ce6e2.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Sales Order' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive" />
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click '101Standard Order (OR)1…'" sap:VirtualizedContainerService.HintSize="416,225" sap2010:WorkflowViewState.IdRef="NClick_11" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="4ca6c231-d215-40df-b75b-3ab8cf6dfb71" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="my419202.s4hana.cloud.sap/ui" ContentHash="z6geSAI6VUOk5UMGkBlL2Q" DesignTimeRectangle="8, 207, 2545, 83" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;webctrl id='cus.sd.salesorderv2.manage::SalesOrderManageObjectPage--fe::ObjectPageDynamicHeaderTitle' /&gt;" Guid="c8cfc7bc-6335-4ec2-bd37-d04da89296cf" InformativeScreenshot="db994b7718f9982dee6d56de8214f32a.png" Reference="jNKRErqfgk-OAzFngleY0w/lbZm64rW8EuthVkXxVXt9g" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Sales Order' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive" />
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NGetText DisplayName="Get Text '100'" sap:VirtualizedContainerService.HintSize="416,189" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="4ca6c231-d215-40df-b75b-3ab8cf6dfb71" TextString="[SalesOrderNumber]" Version="V4">
+              <uix:NGetText.Target>
+                <uix:TargetAnchorable BrowserURL="my419202.s4hana.cloud.sap/ui" ContentHash="Pd10HO9j6UCrA1HowRMqQQ" DesignTimeRectangle="56, 234, 128, 28" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl ui5-role='heading' tag='H2' type='' class='sapMTitle sapMTitleStyleAuto sapMTitleNoWrap sapUiSelectable sapMTitleMaxWidth sapMLightBoxTitle' aaname='' /&gt;" Guid="b89fa9ac-3868-4640-a584-6f02d889c45f" ImageBase64="" InformativeScreenshot="46cda7b2f3343ca559bb7cfcc9ac8959.png" Reference="jNKRErqfgk-OAzFngleY0w/11F77pLLBEG5b8kxgZnqNw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Sales Order' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive" />
+              </uix:NGetText.Target>
+            </uix:NGetText>
+            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,175" sap2010:WorkflowViewState.IdRef="LogMessage_1" Message="[SalesOrderNumber]" />
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Status and Blocks'" sap:VirtualizedContainerService.HintSize="416,225" sap2010:WorkflowViewState.IdRef="NClick_10" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="4ca6c231-d215-40df-b75b-3ab8cf6dfb71" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="my419202.s4hana.cloud.sap/ui" ContentHash="PNRhvsmxt0q1hqV9w6Lj5A" DesignTimeRectangle="555, 298, 151, 44" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;webctrl id='cus.sd.salesorderv2.manage::SalesOrderManageObjectPage--fe::ObjectPage-anchBar' /&gt;&lt;webctrl id='cus.sd.salesorderv2.manage::SalesOrderManageObjectPage--fe::ObjectPage-anchBar-cus.sd.salesorderv2.manage::SalesOrderManageObjectPage--fe::FacetSection::StatusTab-anchor' /&gt;" Guid="6d34fe36-5d6c-4f34-9aae-59b462a0bc78" InformativeScreenshot="76136ff0b2f80a5817a33cbb46ae7e06.png" Reference="jNKRErqfgk-OAzFngleY0w/IefgaDiGzUOzTNQP4P-qcw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Sales Order' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive" />
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NGetText DelayBefore="2" DisplayName="Get Text 'Incompletion Status'" sap:VirtualizedContainerService.HintSize="416,189" sap2010:WorkflowViewState.IdRef="NGetText_2" ScopeIdentifier="4ca6c231-d215-40df-b75b-3ab8cf6dfb71" TextString="[OrderStatus]" Version="V4">
+              <uix:NGetText.Target>
+                <uix:TargetAnchorable BrowserURL="my419202.s4hana.cloud.sap/ui" ContentHash="QUDZlkXMB0S9wkfD89hVPg" DesignTimeRectangle="128, 1365, 282, 16" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl id='cus.sd.salesorderv2.manage::SalesOrderManageObjectPage--fe::table::_OutputRequest::_OutputRequestItem::LineItem-innerTable' /&gt;&lt;webctrl ui5-colLabel='Status' ui5-tableRow='0' /&gt;" Guid="35a5d0e2-cafd-498a-ac11-87a5004a959d" InformativeScreenshot="9bc7c3b5f58a0f8ef79d15938125a63d.png" Reference="jNKRErqfgk-OAzFngleY0w/k-PY_0VyyEO3DR0-6jXN0g" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Sales Order' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive" />
+              </uix:NGetText.Target>
+            </uix:NGetText>
+            <uta:VerifyExpressionWithOperator AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression with Operator" sap:VirtualizedContainerService.HintSize="416,219" sap2010:WorkflowViewState.IdRef="VerifyExpressionWithOperator_1" Operator="Equality" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False">
+              <uta:VerifyExpressionWithOperator.FirstExpression>
+                <InArgument x:TypeArguments="x:String">[OrderStatus]</InArgument>
+              </uta:VerifyExpressionWithOperator.FirstExpression>
+              <uta:VerifyExpressionWithOperator.SecondExpression>
+                <InArgument x:TypeArguments="x:String">["Completed"]</InArgument>
+              </uta:VerifyExpressionWithOperator.SecondExpression>
+            </uta:VerifyExpressionWithOperator>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-8, -8, 2576, 1408" BrowserType="Chrome" ContentHash="nx-y5gUw5EqzVuIUMK77MQ" IconBase64="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" InformativeScreenshot="9e86d3a22e976b490773aa0a6640c0eb.jpg" Reference="jNKRErqfgk-OAzFngleY0w/FMeZUiiRyU2mLHtB89Pe-w" Selector="&lt;html app='chrome.exe' title='Home' /&gt;" Title="Home" Url="https://my419202.s4hana.cloud.sap/ui#Shell-home" Version="V1" />
+      </uix:NApplicationCard.TargetApp>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </uix:NApplicationCard>
+    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="SAP Public Signout - Invoke Workflow File (SAP Public Signout.xaml)" sap:VirtualizedContainerService.HintSize="416,168" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_2" UnSafe="False" WorkflowFileName="SAP Public Signout.xaml">
+      <ui:InvokeWorkflowFile.Arguments>
+        <scg:Dictionary x:TypeArguments="x:String, Argument" />
+      </ui:InvokeWorkflowFile.Arguments>
+    </ui:InvokeWorkflowFile>
+  </Sequence>
+</Activity>

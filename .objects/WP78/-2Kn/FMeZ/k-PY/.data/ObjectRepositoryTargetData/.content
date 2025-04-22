@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="QUDZlkXMB0S9wkfD89hVPg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="my419202.s4hana.cloud.sap/ui" DesignTimeRectangle="128, 1365, 282, 16" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl id='cus.sd.salesorderv2.manage::SalesOrderManageObjectPage--fe::table::_OutputRequest::_OutputRequestItem::LineItem-innerTable' /&gt;&lt;webctrl ui5-colLabel='Status' ui5-tableRow='0' /&gt;" Guid="35a5d0e2-cafd-498a-ac11-87a5004a959d" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Sales Order' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="9bc7c3b5f58a0f8ef79d15938125a63d.png" xmlns="">0cLaE3qkjO0asPeQYMuzV8g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

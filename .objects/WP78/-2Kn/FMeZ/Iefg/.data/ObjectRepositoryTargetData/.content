@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="PNRhvsmxt0q1hqV9w6Lj5A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="my419202.s4hana.cloud.sap/ui" DesignTimeRectangle="555, 298, 151, 44" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;webctrl id='cus.sd.salesorderv2.manage::SalesOrderManageObjectPage--fe::ObjectPage-anchBar' /&gt;&lt;webctrl id='cus.sd.salesorderv2.manage::SalesOrderManageObjectPage--fe::ObjectPage-anchBar-cus.sd.salesorderv2.manage::SalesOrderManageObjectPage--fe::FacetSection::StatusTab-anchor' /&gt;" Guid="6d34fe36-5d6c-4f34-9aae-59b462a0bc78" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Sales Order' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="76136ff0b2f80a5817a33cbb46ae7e06.png" xmlns="">0OGZtwKfPTkqASHY4Pc-A0A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

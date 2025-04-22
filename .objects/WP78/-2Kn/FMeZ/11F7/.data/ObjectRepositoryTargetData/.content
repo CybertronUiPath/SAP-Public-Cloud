@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Pd10HO9j6UCrA1HowRMqQQ" Reference="jNKRErqfgk-OAzFngleY0w/11F77pLLBEG5b8kxgZnqNw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="my419202.s4hana.cloud.sap/ui" DesignTimeRectangle="56, 234, 128, 28" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl ui5-role='heading' tag='H2' type='' class='sapMTitle sapMTitleStyleAuto sapMTitleNoWrap sapUiSelectable sapMTitleMaxWidth sapMLightBoxTitle' aaname='' /&gt;" Guid="b89fa9ac-3868-4640-a584-6f02d889c45f" ImageBase64="" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Sales Order' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="46cda7b2f3343ca559bb7cfcc9ac8959.png" xmlns="">07nMBACc64EqObGcuAWyfbA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

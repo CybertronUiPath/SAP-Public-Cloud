@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="z6geSAI6VUOk5UMGkBlL2Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="my419202.s4hana.cloud.sap/ui" DesignTimeRectangle="8, 207, 2545, 83" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;webctrl id='cus.sd.salesorderv2.manage::SalesOrderManageObjectPage--fe::ObjectPageDynamicHeaderTitle' /&gt;" Guid="c8cfc7bc-6335-4ec2-bd37-d04da89296cf" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Sales Order' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="db994b7718f9982dee6d56de8214f32a.png" xmlns="">07jvGHWB39EejA93lCiEz1g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
